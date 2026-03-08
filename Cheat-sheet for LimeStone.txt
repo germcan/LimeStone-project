@@ -1,0 +1,54 @@
+Cheat-sheet for LimeStone
+
+Section 1 - general blocks
+
+1, VRBrea (French number);
+VRBrea means variable area followed by a French number for which VRBrea it is, then ended in a semicolon, it is the beginning of a VRBrea.
+2, VRBrea nd:
+This is the end of a VRBrea, nd means end then followed by a colon.
+3, _comt"'your comment here'"
+This is a comment, its _comt then a double quote then single quote, your text in the middle, then a single quote then double quote.
+4, vrb crte
+This is the start of a variable creation and its easy to understand, vrb means variable, crte means create.
+5,"your string here"
+This is a general string, you need this for multiple things like naming a variable or naming a function action, though when using a string it starts with a double quote and ends with a single quote.
+6, say; 'your text here'
+This is a print command,  its say; then a space and then a single quote, your text, then another single quote.
+7, DF"function action name'
+This is declaring a function, DF means Do Function then a double quote, then the name of a previously defined function action, then a single quote.
+8, N
+This means do thing one and thing two at the same time.
+9, Nd
+This means do thing one then thing two.
+10, vlu=(value)
+This is assigning a value you to something, currently only used at the end of creating a variable, vlu means value, then an equal sign, then a number (which is the value).
+11, dF
+This means does Function, only used currently for defining the logic of a function action.
+12, WI
+This is the beginning of a condition line, it means What If but its basically just if in any other coding language.
+13, Lwsd WI |
+This is the start of a conditional loop, under it must be a condition, Lwsd means always, WI means what if (block 12 on the cheat sheet) then ended with a space then a |.
+
+Section 2 - arithmetic blocks
+
+1, +,-,*,/
+These are the basic arithmetic symbols, + is addition, - is subtraction, * is multiplication, / is division.
+2, on
+This means onto, which is used for global addition besides inside a VRBrea.
+3, in
+This means into and is used for local addition(inside a VRBrea only) and global multiplication.
+4, of
+This means off of and is used for global subtraction and division.
+5, set
+This means set... and it does what it says, it sets the value of a chosen variable to the value you want it to be.
+
+Section 3 - basic common lines of code in LimeStone
+
+1, vrb crte "variable name" vlu=(value)
+This is creating a variable, vrb crte is first (see block 4 in Section 1) then a general string of what teh name is (see block 5 section 1) then vlu=(value) (see block 10 section 1).
+2, DF crte "function action name" dF'+,-,*,/ (name of variable or value) in, of (name of target variable)' |
+This is defining a function action we first have DF crte (see first half of block 7 section 1 and second half of block 4 section 1) then a string for the name then dF'+,-,*,/ (variable or value) of,in (target variable)' (see block 11 section 1, then block 1 section 2, then block 3 and 4 section 2) then ends with a |.
+3, WI (what you want the condition to be, for example:)variable>100
+This is a condition, first we got WI (see block 12 section 1) then what then what the condition is which is usuall a variable, then <, >, or =, then target value.
+
+Cheat-sheet will be updated along side grammar sheet and news (every three days)
